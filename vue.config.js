@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/crypto_currency/'
-}
+    publicPath: process.env.NODE_ENV === "production" ? "/cyrpto_currency/" : "/",
+  };
