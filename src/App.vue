@@ -1,6 +1,6 @@
 <template>
     <div class="order">
-        <p><strong>Баланс: </strong> {{ this.balance }}$</p>
+        <p><strong>Доступно: </strong> {{ this.balance }}$</p>
         <p>Заполнить по кол-ву</p>
         <div style="display: flex; flex-direction: row;">
         <input style="width: 100%" type="number">
